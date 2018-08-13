@@ -1,0 +1,20 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix reg: <http://metadataregistry.org/uri/profile/regap/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://metadataregistry.org/uri/RegStatus/1001>
+    a skos:Concept ;
+    skos:prefLabel "Published"@en .
+
+<http://uri.registry_stage_branch.test/vocabtest>
+    dc:title "vocabtest" ;
+    a skos:ConceptScheme .
+
+<http://uri.registry_stage_branch.test/vocabtest/1001>
+    reg:identifier <http://metadataregistry.org/concepts/12637> ;
+    reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
+    a skos:Concept ;
+    skos:inScheme <http://uri.registry_stage_branch.test/vocabtest> ;
+    skos:prefLabel "test concept"@en .
+

@@ -1,0 +1,9 @@
+<http://uri.registry_stage_branch.test/vocabtest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://uri.registry_stage_branch.test/vocabtest> <http://purl.org/dc/elements/1.1/title> "vocabtest" .
+<http://uri.registry_stage_branch.test/vocabtest/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://uri.registry_stage_branch.test/vocabtest/1001> <http://www.w3.org/2004/02/skos/core#inScheme> <http://uri.registry_stage_branch.test/vocabtest> .
+<http://uri.registry_stage_branch.test/vocabtest/1001> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> .
+<http://uri.registry_stage_branch.test/vocabtest/1001> <http://metadataregistry.org/uri/profile/regap/identifier> <http://metadataregistry.org/concepts/12637> .
+<http://uri.registry_stage_branch.test/vocabtest/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "test concept"@en .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://metadataregistry.org/uri/RegStatus/1001> <http://www.w3.org/2004/02/skos/core#prefLabel> "Published"@en .

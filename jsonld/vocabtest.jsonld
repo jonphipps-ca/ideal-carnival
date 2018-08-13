@@ -1,0 +1,42 @@
+{
+    "@context": "http://uri.registry_stage_branch.test/Contexts/concepts_langmap.jsonld",
+    "@graph": [
+        {
+            "@id": "http://uri.registry_stage_branch.test/vocabtest",
+            "@type": "ConceptScheme",
+            "title": {
+                "en": "vocabtest"
+            },
+            "description": {
+                "en": ""
+            },
+            "prefix": "vocabtest",
+            "token": "vocabtest",
+            "status": {
+                "@id": "http://metadataregistry.org/uri/RegStatus/1001",
+                "label": "Published"
+            },
+            "omr_api": "http://api.metadataregistry.org/vocabularies/491",
+            "omr_home": "http://metadataregistry.org/vocabularies/491",
+            "count": 1,
+            "languages": [
+                {
+                    "code": "en",
+                    "lang": "English",
+                    "version": "test"
+                }
+            ],
+            "dateOfPublication": "August 13, 2018"
+        },
+        {
+            "@id": "http://uri.registry_stage_branch.test/vocabtest/1001",
+            "@type": "Concept",
+            "api": "http://api.metadataregistry.org/concepts/12637",
+            "inScheme": "http://uri.registry_stage_branch.test/vocabtest",
+            "prefLabel": {
+                "en": "test concept"
+            },
+            "status": "Published"
+        }
+    ]
+}
