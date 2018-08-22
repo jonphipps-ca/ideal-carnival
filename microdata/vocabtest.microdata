@@ -1,12 +1,12 @@
 <div>
   <div itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://uri.registry_stage_branch.test/vocabtest/1001" itemscope>
-    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/12637" />
     <div itemprop="http://metadataregistry.org/uri/profile/regap/status" itemtype="http://www.w3.org/2004/02/skos/core#Concept" itemid="http://metadataregistry.org/uri/RegStatus/1001" itemscope>
       <meta itemprop="prefLabel" content="Published" />
     </div>
     <div itemprop="inScheme" itemtype="http://www.w3.org/2004/02/skos/core#ConceptScheme" itemid="http://uri.registry_stage_branch.test/vocabtest" itemscope>
       <meta itemprop="http://purl.org/dc/elements/1.1/title" content="vocabtest" />
     </div>
-    <meta itemprop="prefLabel" content="test concept" />
+    <link itemprop="http://metadataregistry.org/uri/profile/regap/identifier" href="http://metadataregistry.org/concepts/12637" />
+    <meta itemprop="prefLabel" content="test concept edited" />
   </div>
 </div>

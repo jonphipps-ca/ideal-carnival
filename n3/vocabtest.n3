@@ -10,7 +10,7 @@
     reg:identifier <http://metadataregistry.org/concepts/12637> ;
     reg:status <http://metadataregistry.org/uri/RegStatus/1001> ;
     skos:inScheme <http://uri.registry_stage_branch.test/vocabtest> ;
-    skos:prefLabel "test concept"@en .
+    skos:prefLabel "test concept edited"@en .
 
 <http://metadataregistry.org/uri/RegStatus/1001> a skos:Concept ;
     skos:prefLabel "Published"@en .

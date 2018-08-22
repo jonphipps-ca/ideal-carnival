@@ -10,12 +10,12 @@
         <dc:title>vocabtest</dc:title>
     </skos:ConceptScheme>
 
-<!-- Concept: test concept  -->
+<!-- Concept: test concept edited  -->
     <skos:Concept rdf:about="http://uri.registry_stage_branch.test/vocabtest/1001" xml:lang="en">
       <skos:inScheme rdf:resource="http://uri.registry_stage_branch.test/vocabtest"/>
       <reg:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
       <reg:identifier rdf:resource="http://metadataregistry.org/concepts/12637"/>
-      <skos:prefLabel xml:lang="en">test concept</skos:prefLabel>
+      <skos:prefLabel xml:lang="en">test concept edited</skos:prefLabel>
     </skos:Concept>
 
 <!-- Status properties used in this document  -->

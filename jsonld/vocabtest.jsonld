@@ -23,10 +23,10 @@
                 {
                     "code": "en",
                     "lang": "English",
-                    "version": "test"
+                    "version": "v0.2"
                 }
             ],
-            "dateOfPublication": "August 13, 2018"
+            "dateOfPublication": "August 22, 2018"
         },
         {
             "@id": "http://uri.registry_stage_branch.test/vocabtest/1001",
@@ -34,7 +34,7 @@
             "api": "http://api.metadataregistry.org/concepts/12637",
             "inScheme": "http://uri.registry_stage_branch.test/vocabtest",
             "prefLabel": {
-                "en": "test concept"
+                "en": "test concept edited"
             },
             "status": "Published"
         }
